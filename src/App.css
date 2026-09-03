@@ -1,0 +1,120 @@
+.app-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 24px;
+  background: rgb(218, 203, 195);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  color: rgb(78, 37, 13);
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(78, 37, 13);
+  margin-top: 30px;
+  margin-bottom: 16px;
+  font-size: 1.4rem;
+}
+
+h3 {
+  color: rgb(78, 37, 13);
+  margin-top: 20px;
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px rgb(206, 150, 117);;
+  font-size: 0.9rem;
+  color: rgb(58, 22, 1);
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 12px 16px;
+  background-color:rgb(156, 103, 72);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-bottom: 16px;
+}
+
+.primary-btn:hover {
+  background-color: rgb(83, 43, 18);
+}
+
+.secondary-btn {
+  padding: 12px 16px;
+  background-color:rgb(129, 95, 77);
+  color:  white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.90rem;
+  font-weight: 600;
+}
+
+.secondary-btn:hover {
+  background-color: rgb(102, 60, 35);
+}
+
+.map-wrapper {
+  height: 380px;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  color: rgb(58, 22, 1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: rgb(156, 103, 72);
+}
+
+
+.location-item {
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #eee;
+}
